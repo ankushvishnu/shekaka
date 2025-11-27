@@ -1,0 +1,1 @@
+Shekaka — UI-first prototype\n\nRun locally:\n1. npm install\n2. npm run dev\n3. Open http://localhost:3000 and http://localhost:3000/landing\n

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand */
+:root{
+  --green-900: #203F2B;
+  --green-700: #2E5E3A;
+  --green-500: #60A566;
+  --mustard: #E6C94A;
+  --bg: #F5F0D7;
+  --muted: #D8E2B6;
+}
+
+/* Page */
+html,body,#root{height:100%}
+body{
+  margin:0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: linear-gradient(180deg,var(--bg),#ffffff 60%);
+  color:var(--green-900);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* Shell */
+.app-shell{display:flex; justify-content:center; padding:48px 18px; box-sizing:border-box;}
+.container{max-width:1100px; width:100%;}
+
+/* Header */
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.brand{display:flex;gap:12px;align-items:center}
+.brand .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--green-500),var(--green-700));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800}
+
+/* Card/grid */
+.card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 10px 30px rgba(27,48,34,0.08)}
+.grid-2{display:grid;grid-template-columns:1fr 360px;gap:20px;align-items:start}
+@media (max-width:980px){.grid-2{grid-template-columns:1fr} .container{padding:0 12px}}
+
+/* Inputs */
+.input{width:100%;min-height:120px;border-radius:12px;padding:14px;border:1px solid #eef0ea;resize:vertical;font-size:15px}
+.controls{display:flex;gap:10px;align-items:center;margin-top:12px}
+.btn-primary{background:linear-gradient(90deg,var(--green-500),var(--green-700));color:white;padding:10px 14px;border-radius:12px;border:none;cursor:pointer;font-weight:700}
+.btn-ghost{background:transparent;border:1px solid rgba(34,58,38,0.08);padding:8px 12px;border-radius:10px;cursor:pointer;color:var(--green-700)}
+.small-muted{font-size:13px;color:#6b6b6b}
+.output{margin-top:12px;background:linear-gradient(180deg, rgba(230,201,74,0.06), rgba(46,94,58,0.02));border-radius:10px;padding:12px;border:1px solid rgba(46,94,58,0.04)}
+.search{padding:8px 10px;border-radius:10px;border:1px solid #eee}

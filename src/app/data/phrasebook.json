@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "tsn": "Dumela",
+    "en": "Hello"
+  },
+  {
+    "id": 2,
+    "tsn": "A re ke go thushe?",
+    "en": "Can I help you?"
+  },
+  {
+    "id": 3,
+    "tsn": "Ke a leboga",
+    "en": "Thank you"
+  },
+  {
+    "id": 4,
+    "tsn": "Ke kopa metsi",
+    "en": "Please give me water"
+  },
+  {
+    "id": 5,
+    "tsn": "Fae kae motswako?",
+    "en": "Where is the market?"
+  },
+  {
+    "id": 6,
+    "tsn": "O kae?",
+    "en": "How are you?"
+  },
+  {
+    "id": 7,
+    "tsn": "Ke teng, wena?",
+    "en": "I am fine, and you?"
+  },
+  {
+    "id": 8,
+    "tsn": "Ke a ipelaetsa",
+    "en": "Sorry"
+  },
+  {
+    "id": 9,
+    "tsn": "Nnyeletsa tsela",
+    "en": "Show me the way"
+  },
+  {
+    "id": 10,
+    "tsn": "Ke batla go reka",
+    "en": "I want to buy"
+  },
+  {
+    "id": 11,
+    "tsn": "Ke gopola gore",
+    "en": "I think that"
+  },
+  {
+    "id": 12,
+    "tsn": "Bua buti",
+    "en": "Speak slowly"
+  },
+  {
+    "id": 13,
+    "tsn": "Ke kopa thuso",
+    "en": "I need help"
+  },
+  {
+    "id": 14,
+    "tsn": "A go a nna molemo?",
+    "en": "Is that ok?"
+  },
+  {
+    "id": 15,
+    "tsn": "Ke a itumela go go bona",
+    "en": "Nice to meet you"
+  },
+  {
+    "id": 16,
+    "tsn": "Tsweetswee",
+    "en": "Please"
+  },
+  {
+    "id": 17,
+    "tsn": "Ke utlwa botlhoko",
+    "en": "I feel pain"
+  },
+  {
+    "id": 18,
+    "tsn": "O bo kae?",
+    "en": "Where are you from?"
+  },
+  {
+    "id": 19,
+    "tsn": "Ke tswa mo",
+    "en": "I am from..."
+  },
+  {
+    "id": 20,
+    "tsn": "Ke batla ngaka",
+    "en": "I need a doctor"
+  },
+  {
+    "id": 21,
+    "tsn": "Gompieno",
+    "en": "Today"
+  },
+  {
+    "id": 22,
+    "tsn": "Gompieno e ne e khutswe",
+    "en": "Today is quiet"
+  },
+  {
+    "id": 23,
+    "tsn": "Leina lame ke",
+    "en": "My name is..."
+  },
+  {
+    "id": 24,
+    "tsn": "Nna le nna",
+    "en": "Come with me"
+  },
+  {
+    "id": 25,
+    "tsn": "Fela",
+    "en": "Only"
+  },
+  {
+    "id": 26,
+    "tsn": "Ke kopa thuso ya gago",
+    "en": "I ask for your help"
+  },
+  {
+    "id": 27,
+    "tsn": "Ke batla go ja",
+    "en": "I want to eat"
+  },
+  {
+    "id": 28,
+    "tsn": "A ga o itse",
+    "en": "Don't you know"
+  },
+  {
+    "id": 29,
+    "tsn": "Ke a tlhokomela",
+    "en": "I will take care"
+  },
+  {
+    "id": 30,
+    "tsn": "Ke kopa metsi a a besitsweng",
+    "en": "I want boiled water"
+  },
+  {
+    "id": 31,
+    "tsn": "Tsamaya sentle",
+    "en": "Go well / Goodbye"
+  },
+  {
+    "id": 32,
+    "tsn": "O pirmolotse?",
+    "en": "Did you finish?"
+  },
+  {
+    "id": 33,
+    "tsn": "Ke tlhoka ntlo",
+    "en": "I need a house"
+  },
+  {
+    "id": 34,
+    "tsn": "Re tla kopana gape",
+    "en": "We will meet again"
+  },
+  {
+    "id": 35,
+    "tsn": "Nna o itumela?",
+    "en": "Are you happy?"
+  },
+  {
+    "id": 36,
+    "tsn": "A ke kgone go tsena?",
+    "en": "May I enter?"
+  },
+  {
+    "id": 37,
+    "tsn": "Ke a tshwara",
+    "en": "I am holding"
+  },
+  {
+    "id": 38,
+    "tsn": "Go a utlwala",
+    "en": "It sounds good"
+  },
+  {
+    "id": 39,
+    "tsn": "O bua Setswana?",
+    "en": "Do you speak Setswana?"
+  },
+  {
+    "id": 40,
+    "tsn": "Ke itse se se",
+    "en": "I know that"
+  },
+  {
+    "id": 41,
+    "tsn": "Nna le kgato",
+    "en": "Take a step"
+  },
+  {
+    "id": 42,
+    "tsn": "Ke kopa kane?",
+    "en": "Where can I?"
+  },
+  {
+    "id": 43,
+    "tsn": "Ntsha setshwantsho",
+    "en": "Show the picture"
+  },
+  {
+    "id": 44,
+    "tsn": "A re simolole",
+    "en": "Let's start"
+  },
+  {
+    "id": 45,
+    "tsn": "Ke a tseba go bala",
+    "en": "I can read"
+  },
+  {
+    "id": 46,
+    "tsn": "Ke kopa sekotlolo sa dijo",
+    "en": "I need a bowl of food"
+  },
+  {
+    "id": 47,
+    "tsn": "Go na le mathata",
+    "en": "There are problems"
+  },
+  {
+    "id": 48,
+    "tsn": "Ke kopa motheo",
+    "en": "I ask for support"
+  },
+  {
+    "id": 49,
+    "tsn": "A o tshwanetse go tla?",
+    "en": "Do you have to come?"
+  },
+  {
+    "id": 50,
+    "tsn": "Ke itumelela go ithuta",
+    "en": "I like learning"
+  },
+  {
+    "id": 51,
+    "tsn": "Mo fo",
+    "en": "Here"
+  },
+  {
+    "id": 52,
+    "tsn": "Fa teng?",
+    "en": "Where is it?"
+  },
+  {
+    "id": 53,
+    "tsn": "Ke kopa sekese",
+    "en": "I want sugar"
+  },
+  {
+    "id": 54,
+    "tsn": "O na le nako?",
+    "en": "Do you have time?"
+  },
+  {
+    "id": 55,
+    "tsn": "Ke tswa kitlong",
+    "en": "I come from the village"
+  },
+  {
+    "id": 56,
+    "tsn": "Ke tsogile",
+    "en": "I woke up"
+  },
+  {
+    "id": 57,
+    "tsn": "U tlhomame?",
+    "en": "Are you sure?"
+  },
+  {
+    "id": 58,
+    "tsn": "Ke kopa thuso ya basadi",
+    "en": "I need women's help"
+  },
+  {
+    "id": 59,
+    "tsn": "A o utlwa?",
+    "en": "Can you hear?"
+  },
+  {
+    "id": 60,
+    "tsn": "Ke kopa mmogo",
+    "en": "I request together"
+  },
+  {
+    "id": 61,
+    "tsn": "Se se botlhokwa",
+    "en": "This is important"
+  },
+  {
+    "id": 62,
+    "tsn": "Ke rata bana",
+    "en": "I love children"
+  },
+  {
+    "id": 63,
+    "tsn": "Ke batla go ithuta",
+    "en": "I want to learn"
+  },
+  {
+    "id": 64,
+    "tsn": "Nna le wena",
+    "en": "Stay with me"
+  },
+  {
+    "id": 65,
+    "tsn": "Ke kopa nako",
+    "en": "I need time"
+  },
+  {
+    "id": 66,
+    "tsn": "Nna o ithuta",
+    "en": "You learn"
+  },
+  {
+    "id": 67,
+    "tsn": "A go na le metsi?",
+    "en": "Is there water?"
+  },
+  {
+    "id": 68,
+    "tsn": "Fa o tsena o reetsa",
+    "en": "When you enter listen"
+  },
+  {
+    "id": 69,
+    "tsn": "Ke itumelela dithuso",
+    "en": "I appreciate help"
+  },
+  {
+    "id": 70,
+    "tsn": "Ke batla go tshela",
+    "en": "I want to cross"
+  },
+  {
+    "id": 71,
+    "tsn": "Re a tsamaya",
+    "en": "We are leaving"
+  },
+  {
+    "id": 72,
+    "tsn": "Ke a leboga thata",
+    "en": "Thank you very much"
+  },
+  {
+    "id": 73,
+    "tsn": "Ke batla kitso",
+    "en": "I want knowledge"
+  },
+  {
+    "id": 74,
+    "tsn": "O dire eng?",
+    "en": "What do you do?"
+  },
+  {
+    "id": 75,
+    "tsn": "Ke a tshwara sengwe",
+    "en": "I am holding something"
+  },
+  {
+    "id": 76,
+    "tsn": "A o ka thusa?",
+    "en": "Can you help?"
+  },
+  {
+    "id": 77,
+    "tsn": "Ke kopa setulo",
+    "en": "I need a chair"
+  },
+  {
+    "id": 78,
+    "tsn": "Rea leboga",
+    "en": "We thank you"
+  },
+  {
+    "id": 79,
+    "tsn": "Ke a tshwanelwa",
+    "en": "I deserve it"
+  },
+  {
+    "id": 80,
+    "tsn": "Ke batla moithuti",
+    "en": "I want a student"
+  },
+  {
+    "id": 81,
+    "tsn": "Ke a apara",
+    "en": "I am wearing clothes"
+  },
+  {
+    "id": 82,
+    "tsn": "O a bereka",
+    "en": "You work"
+  },
+  {
+    "id": 83,
+    "tsn": "Ke batla poloko",
+    "en": "I want safety"
+  },
+  {
+    "id": 84,
+    "tsn": "Ke tshaba",
+    "en": "I am afraid"
+  },
+  {
+    "id": 85,
+    "tsn": "Ke batla thuso ya bongaka",
+    "en": "I need medical help"
+  },
+  {
+    "id": 86,
+    "tsn": "Tsamaya mme o ntse",
+    "en": "Go and come back"
+  },
+  {
+    "id": 87,
+    "tsn": "Ke a itumetse",
+    "en": "I am happy"
+  },
+  {
+    "id": 88,
+    "tsn": "Ke a lahlega",
+    "en": "I am lost"
+  },
+  {
+    "id": 89,
+    "tsn": "Ke a go rata",
+    "en": "I love you"
+  },
+  {
+    "id": 90,
+    "tsn": "O ka nna wa tla?",
+    "en": "Can you come?"
+  },
+  {
+    "id": 91,
+    "tsn": "Nna o mongwe",
+    "en": "Be alone"
+  },
+  {
+    "id": 92,
+    "tsn": "Ke kopa motlakase",
+    "en": "I need electricity"
+  },
+  {
+    "id": 93,
+    "tsn": "Ke batla go tsena sekolo",
+    "en": "I want to go to school"
+  },
+  {
+    "id": 94,
+    "tsn": "A o a seka?",
+    "en": "Do you understand?"
+  },
+  {
+    "id": 95,
+    "tsn": "Ke tshwanetse go tsamaya",
+    "en": "I must go"
+  },
+  {
+    "id": 96,
+    "tsn": "Ke a tsamaya gona jaanong",
+    "en": "I am leaving now"
+  },
+  {
+    "id": 97,
+    "tsn": "Ke a bua buti",
+    "en": "I speak slowly"
+  },
+  {
+    "id": 98,
+    "tsn": "O a gakologelwa",
+    "en": "You remember"
+  },
+  {
+    "id": 99,
+    "tsn": "Ke batla go bona ngaka",
+    "en": "I want to see a doctor"
+  },
+  {
+    "id": 100,
+    "tsn": "Ke na le bana",
+    "en": "I have children"
+  },
+  {
+    "id": 101,
+    "tsn": "Ke a ipelaetsa thata",
+    "en": "I am very sorry"
+  },
+  {
+    "id": 102,
+    "tsn": "A re boele morago",
+    "en": "Let's go back later"
+  },
+  {
+    "id": 103,
+    "tsn": "Ke rata dijo tse di monate",
+    "en": "I like delicious food"
+  },
+  {
+    "id": 104,
+    "tsn": "Ke kopa sepe",
+    "en": "I ask for something"
+  },
+  {
+    "id": 105,
+    "tsn": "Ke batla go somarela",
+    "en": "I want to practice"
+  },
+  {
+    "id": 106,
+    "tsn": "O tshwanetse go ithuta",
+    "en": "You must learn"
+  },
+  {
+    "id": 107,
+    "tsn": "Ke na le dipotso",
+    "en": "I have questions"
+  },
+  {
+    "id": 108,
+    "tsn": "Nna o seka wa tshega",
+    "en": "Don't laugh"
+  },
+  {
+    "id": 109,
+    "tsn": "Ke kopa go bua",
+    "en": "I want to speak"
+  },
+  {
+    "id": 110,
+    "tsn": "O kae mo kgakala?",
+    "en": "How far is it?"
+  },
+  {
+    "id": 111,
+    "tsn": "Ke a tsamaya sentle",
+    "en": "Have a good trip"
+  },
+  {
+    "id": 112,
+    "tsn": "Ke a utlwa sentle",
+    "en": "I hear well"
+  },
+  {
+    "id": 113,
+    "tsn": "Ke tlhaloganya",
+    "en": "I understand"
+  },
+  {
+    "id": 114,
+    "tsn": "Rea emela",
+    "en": "We wait"
+  },
+  {
+    "id": 115,
+    "tsn": "Ke batla sengwe",
+    "en": "I want something"
+  },
+  {
+    "id": 116,
+    "tsn": "Ke a nyala",
+    "en": "I am getting married"
+  },
+  {
+    "id": 117,
+    "tsn": "Ke batla thuso ya sekolo",
+    "en": "I need school help"
+  },
+  {
+    "id": 118,
+    "tsn": "A o tlaa thusa?",
+    "en": "Will you help?"
+  },
+  {
+    "id": 119,
+    "tsn": "Ke kopa leng?",
+    "en": "When should I come?"
+  },
+  {
+    "id": 120,
+    "tsn": "Ke itumelela go amogela thuso",
+    "en": "I appreciate the help"
+  }
+]
