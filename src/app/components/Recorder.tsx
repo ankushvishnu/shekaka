@@ -1,26 +1,67 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useRef, useState } from "react";
+import { initWhisper, transcribeBlob } from "../lib/whisper";
+
 export default function Recorder({ onTranscribed }: { onTranscribed: (t: string) => void }) {
-  const [rec, setRec] = useState(false);
-  const ref = useRef<MediaRecorder | null>(null);
+  const [recording, setRecording] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [modelLoading, setModelLoading] = useState(false);
+
+  const mediaRef = useRef<MediaRecorder | null>(null);
   const chunks = useRef<Blob[]>([]);
+
   const start = async () => {
-    const s = await navigator.mediaDevices.getUserMedia({ audio: true });
-    const r = new MediaRecorder(s);
-    r.ondataavailable = (e) => chunks.current.push(e.data);
-    r.onstop = async () => {
-      const blob = new Blob(chunks.current, { type: "audio/webm" });
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const recorder = new MediaRecorder(stream);
+      mediaRef.current = recorder;
       chunks.current = [];
-      const fd = new FormData();
-      fd.append("audio", blob, "rec.webm");
-      try {
-        const res = await fetch("/api/asr", { method: "POST", body: fd });
-        const d = await res.json();
-        if (d.text) onTranscribed(d.text);
-      } catch (e) { console.error(e); alert("ASR failed"); }
-    };
-    r.start(); ref.current = r; setRec(true);
+
+      recorder.ondataavailable = (e) => {
+        if (e.data.size > 0) chunks.current.push(e.data);
+      };
+
+      recorder.onstop = async () => {
+        const blob = new Blob(chunks.current, { type: "audio/webm" });
+        setLoading(true);
+
+        try {
+          // Load model if not loaded already
+          setModelLoading(true);
+          await initWhisper();
+          setModelLoading(false);
+
+          const result = await transcribeBlob(blob);
+          onTranscribed(result || "");
+        } catch (err: any) {
+          console.error("Whisper error:", err);
+          alert("Transcription failed: " + err.message);
+        } finally {
+          setLoading(false);
+        }
+      };
+
+      recorder.start();
+      setRecording(true);
+    } catch (error) {
+      console.error("Microphone access error:", error);
+      alert("Please allow microphone access.");
+    }
   };
-  const stop = () => { ref.current?.stop(); setRec(false); };
-  return <button onClick={rec ? stop : start} className="btn-ghost">{rec? 'Stop':'Record'}</button>;
+
+  const stop = () => {
+    mediaRef.current?.stop();
+    setRecording(false);
+  };
+
+  return (
+    <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+      <button className="btn-ghost" onClick={() => (recording ? stop() : start())}>
+        {recording ? "Stop" : "Record"}
+      </button>
+
+      {modelLoading && <div className="small-muted">Loading model…</div>}
+      {loading && !modelLoading && <div className="small-muted">Transcribing…</div>}
+    </div>
+  );
 }

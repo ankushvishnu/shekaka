@@ -1,0 +1,82 @@
+{
+  "id": "standard-1",
+  "title": "Standard 1 — Syllabus summary",
+  "overview": {
+    "en": "This page summarises the learning goals for Standard 1. The content is presented in English and Setswana so learners can study and practice both languages.",
+    "tn": "Letlhakatshego le le bokanyeditsweng la dithuto tsa Sekala 1. Dikgang tse di bontshiwa ka Sekgoa le Setswana gore barutwa ba ithute le go itlhatlhoba ka dipuo ka bobedi."
+  },
+  "modules": [
+    {
+      "moduleId": "m1",
+      "title": { "en": "Module 1 — Health & Safety", "tn": "Moduli 1 — Boitekanelo le Polokeho" },
+      "units": [
+        {
+          "unitId": "u1",
+          "title": { "en": "Unit 1.1 — Hygiene and safety", "tn": "Yuniti 1.1 — Boitekanelo le Polokeho" },
+          "objectives": {
+            "general": {
+              "en": "Understand and apply basic hygiene practices.",
+              "tn": "Tlhaloganya le go dira mekgwa ya motheo ya boitekanelo."
+            },
+            "specific": [
+              {
+                "en": "Lesson 1 — Personal hygiene: washing hands, bathing, clean clothes.",
+                "tn": "Thuto 1 — Boitekanelo jwa motho: go tlhapa diatla, go tlhapa mmele, diaparo tse di phepa."
+              },
+              {
+                "en": "Lesson 2 — Safe use of tools and avoiding hazards in the classroom and at home.",
+                "tn": "Thuto 2 — Tshedimosetso ya go dirisa didirisiwa sentle le go ipaakanyetsa go se kitla ga diragala kotsi mo sekolong le mo gae."
+              },
+              {
+                "en": "Lesson 3 — Simple first aid: what to do for small cuts and insect bites.",
+                "tn": "Thuto 3 — Kalafo ya ntlha e e motlhofo: se o se dirang fa motho a gatwa kgotsa a dekatlwa ke ditlhabi."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "moduleId": "m2",
+      "title": { "en": "Module 2 — Communication", "tn": "Moduli 2 — Puisano" },
+      "units": [
+        {
+          "unitId": "u2",
+          "title": { "en": "Unit 2.1 — Listening & Speaking basics", "tn": "Yuniti 2.1 — Motheo wa Go Reetsa le Go Bua" },
+          "objectives": {
+            "general": {
+              "en": "Begin to recognise sounds and use simple words and greetings.",
+              "tn": "Simolola go lemoga modumo le go dirisa mafoko a motlhofo le dithaelo."
+            },
+            "specific": [
+              {
+                "en": "Lesson 1 — Common greetings and simple questions.",
+                "tn": "Thuto 1 — Dithaelo tse di tlwaelegileng le dipotso tse di motlhofo."
+              },
+              {
+                "en": "Lesson 2 — Pronouncing easy sounds clearly.",
+                "tn": "Thuto 2 — Tlhalosa modumo wa mafoko a motlhofo sentle."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "moduleId": "m3",
+      "title": { "en": "Module 3 — Reading & Writing (Intro)", "tn": "Moduli 3 — Go Bala le go Kwala (Tlalelo)" },
+      "units": [
+        {
+          "unitId": "u3",
+          "title": { "en": "Unit 3.1 — Early letters and words", "tn": "Yuniti 3.1 — Ditlhaka le Mafoko a Motlhofo" },
+          "objectives": {
+            "general": { "en": "Recognise letters and read simple words.", "tn": "Lemoga ditlhaka le bala mafoko a motlhofo." },
+            "specific": [
+              { "en": "Lesson — Identify letters A–M and form simple words.", "tn": "Thuto — Lemoga ditlhaka A–M le tlhama mafoko a motlhofo." }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

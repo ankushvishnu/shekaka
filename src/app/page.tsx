@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Recorder from "./components/Recorder";
 import TranslationCard from "./components/TranslationCard";
+import DidYouMean from "./components/DidYouMean"; // adjust path based on file location
+import phrasebook from "./data/phrasebook.json"; // if needed elsewhere
 
 export default function AppPage() {
   const [text,setText]=useState("");
@@ -40,7 +42,7 @@ export default function AppPage() {
             <textarea className="input" placeholder="Type or press record to speak..." value={text} onChange={e=>setText(e.target.value)} />
             <div className="controls">
               <button className="btn-primary" onClick={translate}>{loading? 'Working...':'Translate'}</button>
-              <Recorder onTranscribed={(t)=>setText(t)} />
+              <Recorder onTranscribed={(t) => setText(t)} />
               <button className="btn-ghost" onClick={()=>speak(out)}>🔊 Speak</button>
               <div style={{marginLeft:'auto'}}><select value={lang} onChange={e=>setLang(e.target.value)} className="search"><option>Setswana → English</option><option>English → Setswana</option></select></div>
             </div>
