@@ -1,6 +1,6 @@
 "use client";
 import React, { useMemo } from "react";
-import phrasebook from "../../data/phrasebook.json";
+import phrasebook from "../data/phrasebook.json";
 
 type Phrase = { id:number; tsn:string; en:string; };
 
